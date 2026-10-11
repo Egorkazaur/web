@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether & Ink | Digital Art & Design Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Aether<span>&amp;</span>Ink</a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#services">Services</a>
+                <a href="#contact" class="btn-nav">Get in Touch</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <span class="badge">Creative Studio &amp; Digital Gallery</span>
+                <h1>Where Imagination Meets Digital Craft</h1>
+                <p>We craft immersive digital experiences, stunning visual identities, and interactive web spaces that inspire and captivate audiences worldwide.</p>
+                <div class="hero-buttons">
+                    <a href="#gallery" class="btn btn-primary">Explore Works</a>
+                    <a href="#contact" class="btn btn-outline">Start a Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-padding">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <h2>Philosophy of Design</h2>
+                    <p>At Aether &amp; Ink, we believe that great design is not just what it looks like, but how it feels. By blending avant-garde aesthetics with robust technological foundations, we bring ambitious ideas to life.</p>
+                    <ul class="feature-list">
+                        <li>✨ Human-Centered Digital Experiences</li>
+                        <li>🎨 Tailored Visual Identity &amp; Branding</li>
+                        <li>⚡ High-Performance Modern Web Architecture</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <div class="stat-box">
+                        <h3>150+</h3>
+                        <p>Successful Projects</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>12+</h3>
+                        <p>Global Design Awards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Creations</h2>
+                    <p>A curated selection of our recent digital art and web projects.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-img placeholder-1"></div>
+                        <div class="gallery-info">
+                            <span>Interactive Art</span>
+                            <h3>Neon Horizon</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-img placeholder-2"></div>
+                        <div class="gallery-info">
+                            <span>Brand Identity</span>
+                            <h3>Chronos Typography</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-img placeholder-3"></div>
+                        <div class="gallery-info">
+                            <span>Web Experience</span>
+                            <h3>Ethereal Space</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Expertise</h2>
+                    <p>Comprehensive digital solutions tailored to elevate your brand.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon">💻</div>
+                        <h3>Web Development</h3>
+                        <p>Lightning-fast, responsive websites built with clean code and modern frameworks.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon">🎨</div>
+                        <h3>Visual Design</h3>
+                        <p>Striking branding, UI/UX design, and digital illustrations that make an impact.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon">🚀</div>
+                        <h3>Creative Strategy</h3>
+                        <p>Strategic consulting to position your digital presence at the forefront of your industry.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-padding bg-light">
+            <div class="container contact-container">
+                <div class="contact-text">
+                    <h2>Let's Create Together</h2>
+                    <p>Have a project in mind or want to discuss a collaboration? Drop us a message and let's build something extraordinary.</p>
+                    <div class="contact-info">
+                        <p>📍 Studio 4B, Creative District, Kyiv</p>
+                        <p>✉️ hello@aetherink.studio</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="jane@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" rows="4" required placeholder="Tell us about your vision..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Aether &amp; Ink Studio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Behance</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
